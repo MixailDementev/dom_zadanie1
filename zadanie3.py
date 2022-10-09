@@ -8,11 +8,11 @@
 x = float(input('x = '))
 y = float(input('y = '))
 
-if x>0 and y>0:
+if x > 0 and y > 0:
     print('1 quarter number')
-elif x<0 and y>0:
+elif x < 0 and y > 0:
     print('2 quarter number')
-elif x<0 and y<0:
+elif x < 0 and y < 0:
     print('3 quarter number')
 else:
     print('4 quarter number')
