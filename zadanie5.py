@@ -15,10 +15,11 @@ y2 = float(input('enter the y coordinate of point B = '))
 # print(result)
 
 
-def distance(x1, y1, x2, y2):
-    result = math.sqrt((x2-x1)**2 + (y2-y1)**2)
-    return result
+# def distance(x1, y1, x2, y2):
+    # result = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+    # return result
 
+# result = round(distance(x1, y1, x2, y2), 3)
+# print('Distance between A and B: ', result)
 
-result = round(distance(x1, y1, x2, y2), 3)
-print(result)
+print('Distance between A and B: ', round(math.sqrt(math.pow((x1-x2), 2)+math.pow((y1-y2), 2)), 3))
